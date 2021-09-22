@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaGenerics", "AulaGenerics\AulaGenerics.csproj", "{2CA08255-AB70-4A99-B935-92E431467D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AulaGenerics", "AulaGenerics\AulaGenerics.csproj", "{2CA08255-AB70-4A99-B935-92E431467D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestricoesGenerics", "RestricoesGenerics\RestricoesGenerics.csproj", "{4AADD7A9-D77A-4CB1-AAAB-8E0495291988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestricoesGenerics", "RestricoesGenerics\RestricoesGenerics.csproj", "{4AADD7A9-D77A-4CB1-AAAB-8E0495291988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHashCode", "GetHashCode\GetHashCode.csproj", "{46939453-7810-4102-A506-C3A51DE06598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetHashCode", "GetHashCode\GetHashCode.csproj", "{46939453-7810-4102-A506-C3A51DE06598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetESortedSet", "HashSetESortedSet\HashSetESortedSet.csproj", "{05868943-F138-4557-8881-263C51907F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetESortedSet", "HashSetESortedSet\HashSetESortedSet.csproj", "{05868943-F138-4557-8881-263C51907F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioResolvidoConjuntos", "ExercicioResolvidoConjuntos\ExercicioResolvidoConjuntos.csproj", "{6B7EEAF1-3289-456E-B7F6-E86FE414402A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioPropostoConjuntos", "ExercicioPropostoConjuntos\ExercicioPropostoConjuntos.csproj", "{76DFFD90-FBC1-4E75-8BC0-DF1DD2BEC5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaDictionary", "AulaDictionary\AulaDictionary.csproj", "{05ABE7FF-95CD-4B62-863F-332B0E4EFABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioDictionary", "ExercicioDictionary\ExercicioDictionary.csproj", "{3A264151-2307-4527-9E68-DB6E0D0A6B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{05868943-F138-4557-8881-263C51907F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05868943-F138-4557-8881-263C51907F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05868943-F138-4557-8881-263C51907F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7EEAF1-3289-456E-B7F6-E86FE414402A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7EEAF1-3289-456E-B7F6-E86FE414402A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7EEAF1-3289-456E-B7F6-E86FE414402A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7EEAF1-3289-456E-B7F6-E86FE414402A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DFFD90-FBC1-4E75-8BC0-DF1DD2BEC5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DFFD90-FBC1-4E75-8BC0-DF1DD2BEC5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DFFD90-FBC1-4E75-8BC0-DF1DD2BEC5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DFFD90-FBC1-4E75-8BC0-DF1DD2BEC5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05ABE7FF-95CD-4B62-863F-332B0E4EFABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ABE7FF-95CD-4B62-863F-332B0E4EFABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ABE7FF-95CD-4B62-863F-332B0E4EFABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ABE7FF-95CD-4B62-863F-332B0E4EFABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A264151-2307-4527-9E68-DB6E0D0A6B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A264151-2307-4527-9E68-DB6E0D0A6B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A264151-2307-4527-9E68-DB6E0D0A6B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A264151-2307-4527-9E68-DB6E0D0A6B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

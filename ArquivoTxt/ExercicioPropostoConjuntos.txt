@@ -1,0 +1,8 @@
+vinicius 13 C
+karina 21 A
+karina 21 B
+ana 22 A
+fernando 35 A
+fernando 35 C
+vinicius 50 B
+karina 42 C

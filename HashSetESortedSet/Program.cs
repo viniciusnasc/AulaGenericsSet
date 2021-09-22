@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HashSetESortedSet.Entities;
+using System;
 using System.Collections.Generic;
 
 namespace HashSetESortedSet
@@ -31,7 +32,27 @@ namespace HashSetESortedSet
             SortedSet<int> e = new(a);
             e.ExceptWith(b); // Altera e para que exclua os elementos que existem em b
 
-            PrintCollection(a);
+
+
+            HashSet<string> set2 = new();
+            set2.Add("Maria");
+            set2.Add("Alex");
+
+            set2.Contains("Maria"); // O contains teste pelo GetHashCode e após testar, testa com o Equals, e retorna booleano, caso o tipo tenha a implementação desses dois
+
+            HashSet<Product> produto = new();
+            produto.Add(new("TV", 900));
+            produto.Add(new("Notebook", 1200));
+
+            HashSet<Point> point = new();
+            point.Add(new(3, 4));
+            point.Add(new(5, 10));
+
+            Product prod = new("Notebook", 1200);
+            produto.Contains(prod); // Retorna falso, pois como GetHashCode e Equals nao estao implantados em Product, ele esta comparando os espaços em memoria
+
+            Point ponto = new(5, 10);
+            point.Contains(ponto); // Retorna true, diferente da classe, por ser struct, ele nao compara por referencia de memoria
         }
 
         static void PrintCollection<T>(IEnumerable<T> collection)
